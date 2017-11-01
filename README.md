@@ -12,6 +12,8 @@ Expects Redis to be running on localhost. Config can be changed in `default.json
 
 ## Run
 
+You can either manually start the required processes or use `pm2`
+
 ### Manual
 
 Start 2 separate processes
