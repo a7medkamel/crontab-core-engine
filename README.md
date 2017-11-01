@@ -4,11 +4,11 @@
 
 ```bash
 // clone repository and run
-npm Install
+npm install
 ```
 
 ## Dependency
-Expects Redis to be running on localhost. Config can be change in `default.json`.
+Expects Redis to be running on localhost. Config can be changed in `default.json`.
 
 ## Run
 
@@ -44,6 +44,10 @@ HTTP POST http://localhost:8670/crontab
 }
 ```
 
+`text` is in crontab format; each line represents a crontab job.
+
+https://en.wikipedia.org/wiki/Cron
+
 In this example, `PAYLOAD_A` will be triggered every minutes and `PAYLOAD_B` will be triggered once an hour.
 
 ### Delete
@@ -53,7 +57,7 @@ ex: http://localhost:8670/crontab/foo
 
 ## Handle Job Execution
 
-In this fork for `taskmill-core-cron` you need to change the `handler` method in `./lib/time/program.js` to execute your desired behavior.
+In this fork of `taskmill-core-cron` you need to change the `handler` method in `./lib/time/program.js` to execute your desired behavior.
 
 The current handler will console.log() the event
 
