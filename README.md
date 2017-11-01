@@ -59,7 +59,7 @@ ex: http://localhost:8670/crontab/foo
 
 ## Handle Job Execution
 
-In this fork of `taskmill-core-cron` you need to change the `handler` method in `./lib/time/program.js` to execute your desired behavior.
+In this fork of [taskmill-core-cron](https://github.com/a7medkamel/taskmill-core-cron) you need to change the `handler` method in `./lib/time/program.js` to execute your desired behavior.
 
 The current handler will console.log() the event
 
