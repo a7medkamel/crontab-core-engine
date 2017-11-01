@@ -1,0 +1,21 @@
+{
+  "cron"      : {
+    "port"    : "8670",
+    "redis"   : {
+      "db"          : 1,
+      "host"        : "localhost",
+      "port"        : 6379,
+      "password"    : ""
+    },
+    "limit_per_crontab"   : 10,
+    "exec"    : {
+      "url"   : "http://localhost:8060"
+    }
+  },
+  "pubsub" : {
+    "host"          : "localhost",
+    "port"          : 6379,
+    "password"      : "",
+    "db"            : 1
+  }
+}
