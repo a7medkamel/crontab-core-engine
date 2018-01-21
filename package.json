@@ -24,8 +24,6 @@
     "async": "^2.5.0",
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
-    "config": "^1.27.0",
-    "config-url": "git+https://github.com/a7medkamel/config-url.git",
     "crontab-core-cron": "git+https://github.com/a7medkamel/crontab-core-cron.git",
     "express": "^4.16.2",
     "lodash": "^4.17.4",
