@@ -1,6 +1,6 @@
 var config    = require('config')
-  , Scheduler = require('./scheduler')
-  , http      = require('./http')
+  , Scheduler = require('../lib/scheduler')
+  , http      = require('../lib/http')
   ;
 
 let scheduler = new Scheduler();

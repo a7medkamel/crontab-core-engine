@@ -1,9 +1,9 @@
 module.exports = {
   apps : [{
     name   : "clock",
-    script : "./lib/time/program.js"
+    script : "./program/clock.js"
   }, {
     name   : "scheduling",
-    script : "./lib/scheduling/program.js"
+    script : "./program/scheduling.js"
   }]
 }
